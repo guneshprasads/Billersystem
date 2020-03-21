@@ -1,0 +1,24 @@
+<html>    
+   <head>    
+            <title>{{t}}</title>    
+        </head>    
+        <style>       
+            h1{    
+                font-family:"Arial Black", Gadget, sans-serif;    
+            }    
+            body{    
+                background-color:white;    
+            }    
+        </style>    
+    <body>    
+        <h1>{{h}}</h1>
+        {% if billObject["done"] == "yes" %}
+        	<hr><p>There is no due amout pending on user: {{billObject["name"]}}.</p>
+        {% else %}
+        	<hr><p>There is still a due amout of Rs. {{billObject["bills"][0]["amount"]}} on {{billObject["name"]}}. RecieptId: {{reciept_id}}</p>
+        {% endif %}
+	</body> 
+    </br>
+    </br>
+    <p><a href="/list">Click Here</a> to go Back to the list page</p>
+</html>
