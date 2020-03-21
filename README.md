@@ -24,9 +24,7 @@ Things you may want to cover:
  
  
  
- 
- 
- HERE ARE THE SCREEN SHOTS OF THE WEB APPLICATION :- 
+ **HERE ARE THE SCREEN SHOTS OF THE WEB APPLICATION :-** 
  
  ![Screenshot 2020-03-21 at 7 37 49 PM](https://user-images.githubusercontent.com/13889409/77229034-65d40a80-6bb1-11ea-9809-a61c64c7adea.png)
 ![Screenshot 2020-03-21 at 7 38 11 PM](https://user-images.githubusercontent.com/13889409/77229038-68cefb00-6bb1-11ea-954e-5be6b274be2d.png)
