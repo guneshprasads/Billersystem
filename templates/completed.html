@@ -1,6 +1,6 @@
 <html>    
    <head>    
-            <title>{{t}}</title>    
+        <title>{{t}}</title>    
         </head>    
         <style>       
             h1{    
@@ -8,10 +8,12 @@
             }    
             body{    
                 background-color:white;    
-            }    
+            }
         </style>    
+                <link rel="stylesheet" type="text/css"  href="{{ url_for('static',filename='assets/style.css')}}" >
     <body>    
         <h1>{{h}}</h1>
+
         {% if billObject["done"] == "yes" %}
         	<hr><p>There is no due amout pending on user: {{billObject["name"]}}.</p>
         {% else %}

@@ -115,7 +115,7 @@ def action3 ():
 
     todos.update({"_id":ObjectId(reciept_id)}, {'$set':{"bills": billObject["bills"], "done": billObject["done"]}})
 
-    return render_template("/completed.html", billObject=billObject, reciept_id=reciept_id)
+    return render_template("/completed.html", billObject=billObject, reciept_id=reciept_id, t=title,h=heading)
   
 @app.route("/search", methods=['GET'])    
 def search():    

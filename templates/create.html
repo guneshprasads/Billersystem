@@ -6,6 +6,46 @@
         <link rel="stylesheet" type="text/css"  href="{{ url_for('static',filename='assets/emoji.css')}}" >    
         <script src="{{ url_for('static',filename='assets/twemoji.min.js')}}"></script>      
         <script src="{{ url_for('static',filename='assets/emoji.js')}}"></script>    
+        <style type="text/css">
+            
+            body{
+                background-color: #e0e0e0;
+                font-size: 24px;
+            }
+            input[type="text"] {
+              padding: 10px;
+              border-radius: 50px;
+              box-shadow: 3px 5px 2px 0px               rgba(0,0,0,0.3) inset,
+              -1px -3px 10px 0px rgba(250,250,250,0.3) inset;
+              border-style: none;
+              outline: none;
+              margin:10px;
+              font-size: 24px; font-family: monospace; 
+            }
+
+
+            button{
+              padding: 10px;
+              border-radius: 50px;
+              box-shadow: 3px 5px 2px 0px rgba(0,0,0,0.3),
+              -1px -3px 10px 0px rgba(250,250,250,0.3);
+              border-style: none;
+              outline: none;
+                margin:12px;
+              font-size: 24px; font-family: monospace; 
+              cursor: pointer;
+            }
+              
+            button:hover{  
+              transform : scale(0.98) translateY(2px);
+            }
+
+            button:active{
+                box-shadow: 3px 5px 2px 0px            rgba(0,0,0,0.3) inset,
+              -1px -3px 10px 0px rgba(250,250,250,0.3) inset;
+            }
+
+        </style>
     </head>    
 <body>    
     <h1>{{ h }}</h1>        
@@ -16,9 +56,9 @@
             <td><b><big><label>Add a Coustmer : </label></big></b></td>    
         </tr>    
         <tr>    
-        <td><input type="text" name="name" placeholder="Coustmer Name" ></td>    
-        <td><input name="phonenumber" rows="1" cols="30" placeholder="Enter Your Phone Number" required></td>    
-        <td><input type="text" name="Amount" placeholder="Amount" /></td>   
+        <td><input type="text" name="name" placeholder="Coustmer Name" autocomplete="nope"></td>    
+        <td><input type="text" name="phonenumber" rows="1" cols="10" placeholder="Enter Your Phone Number" required autocomplete="nope"></td>    
+        <td><input type="text" name="Amount" placeholder="Amount" autocomplete="nope"/></td>   
         <td><button type="submit"> Create </button></td>    
         </tr>    
     </form>    
