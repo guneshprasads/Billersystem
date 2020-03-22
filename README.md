@@ -4,12 +4,12 @@
    ``` 
 
 ## Getting Started</br>
-        ```
+       
         git clone git@github.com:guneshprasads/Billersystem.git
         cd Billersystem
         Python app.py
         http://localhost:5000/
-        ```
+       
 
 ### Prerequisites </br>
   ```
@@ -20,26 +20,26 @@
 ### Installing </br>
   A step by step series of examples that tell you how to get a development env running
   
-  #### FIRST YOU WANT INSTALL PYTHON BY RUNNING THIS COMMAND:-</br>
+ FIRST YOU WANT INSTALL PYTHON BY RUNNING THIS COMMAND:-</br>
     ```  
    brew install python3
    python3 --version
     ```
-  #### SECOND YOU WANT TO INSTALL:-</br>
+   SECOND YOU WANT TO INSTALL:-</br>
       ```
       brew install mongodb-community@4.2
       brew services start mongodb-community@4.2
       mongod --config /usr/local/etc/mongod.conf --fork
       mongo
       ```
-  #### THIRD YOU WANT TO CREATE THE VIRTUALENV:-</br>
+   THIRD YOU WANT TO CREATE THE VIRTUALENV:-</br>
       ```
        virtualenv <name>
        source  <name>/bin/activate
        which python
        Python3 --version
        ```
-  #### YOU WANT TO RUN APP BY RUNNING THE COMMAND :-</br>
+  YOU WANT TO RUN APP BY RUNNING THE COMMAND :-</br>
       ``` python app.py
       ```
    
