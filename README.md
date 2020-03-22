@@ -5,11 +5,11 @@ application up and running.
 
 ## Things you may want to cover:</br>
 
-### 1.Want to Install </br>
-   *python   </br>
+### Prerequisites </br>
+  ''' *python   </br>
    *Mongodb </br>
    *Virtual ENV </br>
-
+'''
 * To Install Database :
 
 * Services (job queues, cache servers, search engines, etc.)
