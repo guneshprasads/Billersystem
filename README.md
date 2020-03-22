@@ -1,9 +1,16 @@
 # Billersystem
+  ```
+    These web application which was created based on python - falsk, is a Biller system where You can Register,Update,Modify,and Destroy the Coustmer Data.
+   ``` 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-## Things you may want to cover:</br>
+## Getting Started</br>
+    If you Want to Acess to this Application Run below commands
+        ```
+        git clone git@github.com:guneshprasads/Billersystem.git
+        cd Billersystem
+        Python app.py
+        http://localhost:5000/
+        ```
 
 ### Prerequisites </br>
   ```
@@ -11,19 +18,46 @@ application up and running.
   Mongodb - v4.2.3
   Virtual ENV - 20.0.4
   ```
-* To Install Database :
-
+### Installing </br>
+  A step by step series of examples that tell you how to get a development env running
+  
+  #### FIRST YOU WANT INSTALL PYTHON BY RUNNING THIS COMMAND:-</br>
+    ```  
+   brew install python3
+   python3 --version
+    ```
+  #### SECOND YOU WANT TO INSTALL:-</br>
+      ```
+      brew install mongodb-community@4.2
+      brew services start mongodb-community@4.2
+      mongod --config /usr/local/etc/mongod.conf --fork
+      mongo
+      ```
+  #### THIRD YOU WANT TO CREATE THE VIRTUALENV:-</br>
+      ```
+       virtualenv <name>
+       source  <name>/bin/activate
+       which python
+       Python3 --version
+       ```
+  #### YOU WANT TO RUN APP BY RUNNING THE COMMAND :-</br>
+      ```
+      python app.py
+      ```
+   
+  
 * Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
 
-* Steps you want to cover </br>
+
+#### Steps you want to cover </br>
+ ```
  1.You can Create, Modify, Update, Delete </br>
  2.Search by Both Phone Number and Coustmer name</br>
  3.Written Two API's</br>
    * 1st API - return the bill </br>
    * 2nd API - return the recipt with recipt Number</br> 
- 
+  ``` 
  
  
  **HERE ARE THE SCREEN SHOTS OF THE WEB APPLICATION :-** 
