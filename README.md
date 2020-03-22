@@ -5,12 +5,12 @@ application up and running.
 
 ## Things you may want to cover:</br>
 
-*INSTALLING </br>
+### 1.Want to Install </br>
    *python   </br>
    *Mongodb </br>
    *Virtual ENV </br>
 
-* Database creation : Monogo database
+* To Install Database :
 
 * Services (job queues, cache servers, search engines, etc.)
 
