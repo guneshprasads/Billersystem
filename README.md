@@ -34,7 +34,7 @@
       mongod --config /usr/local/etc/mongod.conf --fork
       mongo
       
-      </br>
+      
    #### THIRD YOU WANT TO CREATE THE VIRTUALENV:-</br>
       
        virtualenv <name>
@@ -42,7 +42,7 @@
        which python
        Python3 --version
        
-       </br>
+
   #### YOU WANT TO RUN APP BY RUNNING THE COMMAND :-</br>
        python app.py
       
