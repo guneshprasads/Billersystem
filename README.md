@@ -12,39 +12,39 @@
        
 
 ## Prerequisites </br>
-  ```
+
   Python - 3.8.1   
   Mongodb - v4.2.3
   Virtual ENV - 20.0.4
-  ```
+
 ## Installing </br>
- ### A step by step series of examples that tell you how to get a development env running
+ ### A step by step series of examples that tell you how to get a development env running </br>
   
  #### FIRST YOU WANT INSTALL PYTHON BY RUNNING THIS COMMAND:-</br>
-    ```  
+    
    brew install python3
    python3 --version
-    ```
+    
     </br>
    #### SECOND YOU WANT TO INSTALL:-</br>
-      ```
+      
       brew install mongodb-community@4.2
       brew services start mongodb-community@4.2
       mongod --config /usr/local/etc/mongod.conf --fork
       mongo
-      ```
+      
       </br>
    #### THIRD YOU WANT TO CREATE THE VIRTUALENV:-</br>
-      ```
+      
        virtualenv <name>
        source  <name>/bin/activate
        which python
        Python3 --version
-       ```
+       
        </br>
   #### YOU WANT TO RUN APP BY RUNNING THE COMMAND :-</br>
-      ``` python app.py
-      ```
+       python app.py
+      
    
   
 
