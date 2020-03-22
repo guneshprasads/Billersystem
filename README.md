@@ -3,12 +3,12 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
-##Things you may want to cover:
+## Things you may want to cover:</br>
 
-*INSTALLING 
-   *python
-   *Mongodb
-   *Virtual ENV
+*INSTALLING </br>
+   *python   </br>
+   *Mongodb </br>
+   *Virtual ENV </br>
 
 * Database creation : Monogo database
 
