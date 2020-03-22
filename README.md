@@ -41,8 +41,7 @@
        Python3 --version
        ```
   #### YOU WANT TO RUN APP BY RUNNING THE COMMAND :-</br>
-      ```
-      python app.py
+      ``` python app.py
       ```
    
   
