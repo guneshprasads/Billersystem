@@ -6,9 +6,11 @@ application up and running.
 ## Things you may want to cover:</br>
 
 ### Prerequisites </br>
-  ''' *python   </br>
+  '''
+    *python   </br>
    *Mongodb </br>
-   *Virtual ENV </br>
+  *Virtual ENV </br>
+  
 '''
 * To Install Database :
 
