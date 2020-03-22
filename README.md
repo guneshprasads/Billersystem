@@ -12,10 +12,11 @@
        
 
 ## Prerequisites </br>
-
+```
   Python - 3.8.1   
   Mongodb - v4.2.3
   Virtual ENV - 20.0.4
+```
 
 ## Installing </br>
  ### A step by step series of examples that tell you how to get a development env running </br>
