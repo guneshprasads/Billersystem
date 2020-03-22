@@ -3,11 +3,12 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
-Things you may want to cover:
+##Things you may want to cover:
 
-* Python version : 3.1.8
-
-* System dependencies
+*INSTALLING 
+   *python
+   *Mongodb
+   *Virtual ENV
 
 * Database creation : Monogo database
 
@@ -18,10 +19,10 @@ Things you may want to cover:
 * Steps you want to cover </br>
  1.You can Create, Modify, Update, Delete </br>
  2.Search by Both Phone Number and Coustmer name</br>
- '''3.Written Two API's</br>
+ 3.Written Two API's</br>
    * 1st API - return the bill </br>
    * 2nd API - return the recipt with recipt Number</br> 
- '''
+ 
  
  
  **HERE ARE THE SCREEN SHOTS OF THE WEB APPLICATION :-** 
