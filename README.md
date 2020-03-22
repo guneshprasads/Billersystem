@@ -18,10 +18,10 @@ Things you may want to cover:
 * Steps you want to cover </br>
  1.You can Create, Modify, Update, Delete </br>
  2.Search by Both Phone Number and Coustmer name</br>
- 3.Written Two API's</br>
-'''   * 1st API - return the bill </br>
-      * 2nd API - return the recipt with recipt Number</br> '''
- 
+ '''3.Written Two API's</br>
+   * 1st API - return the bill </br>
+   * 2nd API - return the recipt with recipt Number</br> 
+ '''
  
  
  **HERE ARE THE SCREEN SHOTS OF THE WEB APPLICATION :-** 
