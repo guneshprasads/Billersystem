@@ -7,9 +7,9 @@ application up and running.
 
 ### Prerequisites </br>
   ```
-    *python   </br>
-   *Mongodb </br>
-  *Virtual ENV </br>
+  Python - 3.8.1   
+  Mongodb - v4.2.3
+  Virtual ENV - 20.0.4
   ```
 * To Install Database :
 
